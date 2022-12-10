@@ -33,6 +33,7 @@ public class MorseCode {
         return sb.toString();
     }
 
+
     public Map<Character, String> getMorseMap() {
         return morseMap;
     }
