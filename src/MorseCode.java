@@ -27,7 +27,7 @@ public class MorseCode {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++){
              Character c = s.charAt(i);
-             sb.append(" " + morseMap.get(c));
+             sb.append(" ").append(morseMap.get(c));
 
         }
         return sb.toString();
